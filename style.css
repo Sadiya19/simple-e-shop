@@ -1,28 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     margin: 0 50px;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
 }
-.nav-links{
+
+.nav-links {
     list-style: none;
     display: flex;
 }
-.nav-links a{
+
+.nav-links a {
     text-decoration: none;
     margin: 0 1rem;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     border: none;
-    color:white;
+    color: white;
     background-color: orange;
     padding: 5px 10px;
     text-transform: uppercase;
     border-radius: 3px;
+}
+.banner-sec{
+    background-color: #294F83;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    margin-right: 50px;
+}
+.banner-text h5 {
+    font-weight: bolder;
+    line-height: 2rem;
+}
+.banner-text h1 {
+    font-size: 40px;
+}
+.banner-text span {
+    color: coral;
+}
+.banner-text p{
+    margin: 5px 0;
+    font-size: small;
+}
+.view-btn{
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin: 10px 0;
 }
